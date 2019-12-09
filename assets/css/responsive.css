@@ -32,7 +32,7 @@
 		height: 750px;
     }
 
-    #portfolio div {
+    #portfolio li {
 		width: 90%;
 		height: 250px;
 		margin: 15px 5% 20px 5%;
@@ -43,6 +43,9 @@
 		height: 100%;
 	}
 
+	.portLabel {
+
+	}
 }
 
 
@@ -75,7 +78,7 @@
     	margin: 35px;
     }
 
-    #portfolio div {
+    #portfolio li {
 		width: 45%;
 		height: 180px;
 		margin: 10px 0px 10px 3.2%;
@@ -99,12 +102,11 @@
 
 
 @media only screen and (max-width: 640px) {
-    /* For mobile phones: */
     body {
     	height: 1200px;
     }
 
-    #brand {
+    #brand h1 {
     	width: 100%;
     	margin: 0;
 	}
@@ -142,7 +144,7 @@
     	margin: 25px;
     }
 
-    #portfolio div {
+    #portfolio li {
 		width: 90%;
 		height: 200px;
 		margin: 15px 5% 20px 5%;
